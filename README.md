@@ -8,6 +8,8 @@ singularity build --sandbox qdnaseq_ docker://asntech/qdnaseq:v1.26.0
 
 Note: optional to build qdnaseq_1.26.sif directly
 
+singularity build qdnaseq_1.26.sif qdnaseq_
+
 # Execution:
 Note: Use any wholegenome bam file here (make sure its sorted and indexed before use).
 
